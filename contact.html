@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact information</title>
+    <script>
+        var My_F = function(){
+            alert("information has been submitted")
+            document.write("Thank you for informing")
+        }
+    </script>
+</head>
+<body>
+    <h3>Contact info</h3>
+    <table>
+        <tr>
+            <td>Phone Number :</td>
+            <td>+91 8105101573</td>
+            
+        </tr>
+        <tr>  
+            <td>Address:</td>
+            <td> SAP Labs Pvt Ind Ltd Bangalore</td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>sample@gmail.com</td>
+        </tr>
+    </table>
+
+    <br>
+    <em><b><p>Please Submit your informtion below for registering a class with me</p></b></em>
+
+    <form calss="form-ex" action method="GET">
+        <table>
+            <tr>
+                <div class="form-ex">
+                   <td><label for="Name">Enter your Name:  </label></td>
+                    <td><input type="text" id="Name" name="Name"></td>
+                </div>   
+            </tr>
+            <tr>
+                <div class="form-ex">
+                    <td><label for ="Email">Enter Your Email ID:  </label></td>
+                    <td><input type="text" id="Email" name="Email"></td>
+                </div>
+            </tr>
+            <tr>
+                <td>
+                    <label for ="password">Enter Password   </label>
+                </td>
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+
+        
+        </table>
+        <br>
+        <input type="button" id = "info" name="Submit" value="Submit" onclick="My_F()">
+    </form>
+   
+    
+</body>
+</html>
